@@ -1,37 +1,96 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/NoversalyukDima/goit-markup-hw-01/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NoversalyukDima/goit-markup-hw-01/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Studio</title>
+    </head>
+    <body>
+        <header>
+        <nav>
+            <a href="">Web Studio</a>
+            <ul>
+                <li><a href="">Студия</a></li>
+                <li><a href="">Портфолио</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+        </nav>
+        <ul>
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+        </header>
+    <main>
+        <section>
+            <h1>Эффективные решения для вашего бизнеса</h1>
+            <button type="button">Заказать услугу</button>
+        </section>
+        <section>
+            <h2>Наше майбутне</h2>
+            <ul>
+                <li>
+                    <h3>Внимание к деталям</h3>
+                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                </li>
+                <li>
+                    <h3>Пунктуальность</h3>
+                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                </li>
+                <li>
+                    <h3>Планирование</h3>
+                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                </li>
+                <li>
+                    <h3>Современные технологии</h3>
+                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Чем мы занимаемся</h2>
+            <ul>
+                <li><img src="./images/box1.jpg" width="370" alt="Человек печятает код на компютере"></li>
+                <li><img src="./images/box2.jpg" width="370" alt="Выберает оформление телефона на компютере"></li>
+                <li><img src="./images/box3.jpg" width="370" alt="Выберает цветовую гаму на планшете"></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Наша команда</h2>
+            <ul>
+                <li>
+                    <img src="./images/img1.jpg" width="270" alt="Игорь Демьяненко Product Designer">
+                    <h3>Игорь Демьяненко</h3>
+                    <p>Product Designer</p>
+                </li>
+                <li>
+                    <img src="./images/img2.jpg" width="270" alt="Ольга Репина Frontend Developer">
+                    <h3>Ольга Репина</h3>
+                    <p>Frontend Developer</p>
+                </li>
+                <li>
+                    <img src="./images/img3.jpg" width="270" alt="Николай Тарасов Marketing">
+                    <h3>Николай Тарасов</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/img4.jpg" width="270" alt="Михаил Ермаков UI Designer">
+                    <h3>Михаил Ермаков</h3>
+                    <p>UI Designer</p>
+                </li>
+           </ul>
+        </section>
+    </main> 
+   <footer>
+        <a href="">Web Studio</a>
+        <address>
+            <ul>
+                <li><a href="https://goo.gl/maps/idDUvh7rMEF7i7zZ6" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a href="mailto:info@example.com">info@example.com</a></li>
+                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+            </ul>
+        </address>
+        
+   </footer>   
+    </body>
+</html>
